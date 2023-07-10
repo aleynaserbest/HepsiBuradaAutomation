@@ -43,20 +43,10 @@ public class LoginTests {
         homePage.buttonClick(homePage.login);
 
         loginPage.waitVisibleId(loginPage.email);
-        loginPage.writeField(loginPage.email, "aleynaserbestt@outlook.com");
+        loginPage.writeField(loginPage.email, "test@gmail.com");
 
         loginPage.waitVisibleId(loginPage.loginBtn);
         loginPage.butonClick(loginPage.loginBtn);
-
-        /*
-        loginPage.waitVisibleId(loginPage.password);
-        loginPage.waitClickableId(loginPage.password);
-        loginPage.writeFieldPassword(loginPage.password, "Aleyna.0301033");
-
-        loginPage.waitClickable(loginPage.btnLogin);
-        loginPage.waitVisible(loginPage.btnLogin);
-        loginPage.buttonClick(loginPage.btnLogin);
-        */
 
     }
 
