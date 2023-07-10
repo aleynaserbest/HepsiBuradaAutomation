@@ -52,10 +52,6 @@ public class Page {
         driver.findElement(By.id(elementId)).sendKeys(email);
     }
 
-   /* public void writeFieldPassword (String elementId, String password) {
-        driver.findElement(By.id(elementId)).sendKeys(password);
-    }*/
-
     public void writeFieldSearch (String elementCss,String search) {
         driver.findElement(By.cssSelector(elementCss)).sendKeys(search);
 
